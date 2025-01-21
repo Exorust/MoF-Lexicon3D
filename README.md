@@ -1,6 +1,14 @@
 # Mixture of Features on Lexicon3D
 
-This was a modification atop the work done for Lexicon3D.
+There has been a lot of work involving using re-trained 2D vision models with 3D
+ frameworks. We chose to build upon Lexicon3D Man et al. [2024], in which an
+ ablation study demonstrated improved outcome in the semantic segmentation task
+ by creating an ensembe of models involving LSeg, Stable Diffusion, and Swin3D.
+ Weinvestigated feature based fusion strategies, including additive and interleaved
+ approaches, to refine the Mixture of Features paradigm. By extending the concept to
+ encompass semantic segmentation, our goal is to identify optimal fusion techniques
+ that outperform existing benchmarks, leveraging diverse pre-trained embeddings
+ to improve understanding in 3D spaces
 
 ![image](https://github.com/user-attachments/assets/98f89ad1-5d8a-499e-afbb-2420c1b61ab4)
 
