@@ -36,4 +36,4 @@ python fusion_scannet_clip.py  --data_dir dataset/ScanNet/openscene/  --output_d
 This script will extract features from the LSeg model for the ScanNet dataset. The extracted features will be saved in the `output_dir` folder, containing the feature embeddings, points, and voxel grids.
 
 ## Acknowledgements
-This repo is built based on the fantastic work [OpenScene](https://github.com/pengsongyou/openscene). We also thank the authors of [P3DA](https://github.com/mbanani/probe3d) and the authors of all relevant visual foundation models for their great work and open-sourcing their codebase. 
+This repo is built based on the fantastic work of [Lexicon3D](https://github.com/Exorust/MoF-Lexicon3D) & [OpenScene](https://github.com/pengsongyou/openscene). 
